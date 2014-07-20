@@ -1,4 +1,5 @@
 <?php
+// 基本的なクラスとオブジェクト
 
 class Employee
 {

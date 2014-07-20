@@ -1,4 +1,5 @@
 <?php
+// マジックメソッド
 
 class Employee
 {
