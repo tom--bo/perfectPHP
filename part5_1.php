@@ -52,4 +52,12 @@ echo $yamada->getState().$yamada->name.'さん';
 $yamada->setState('働いていない');
 echo $yamada->getState().$yamada->name.'さん';
 
+echo "<br>====<br>";
 
+$arr = array(
+    'foo' => 2,
+    'bar' => 3,
+);
+
+$array_obj = (object)$arr;
+echo $array_obj->foo.'<br>';
